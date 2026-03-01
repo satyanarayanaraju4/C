@@ -1,28 +1,21 @@
 #include<stdio.h>
 int main()
 {
-	int array[100],n,c,d,swap;
-	printf("enter number of elements\n");
-	scanf("%d",&n);
-	printf("enter the number");
-	for(c=0;c<n;c++)
-	scanf("%d",&a[c]);
-	for(c=0;c<n-1;c++)
-}
-    for(d=o;d<n-c-1;d++)
-    {
-    	if(array[d]>array[d+1].1*/for decreasing
-    	or use '<' instead of'>',*/
+	int marks[6]={62,34,89,97,50,78};
+	// using without any loop
+	printf("%d\n",marks[0]);
+	printf("%d\n",marks[1]);
+	printf("%d\n",marks[2]);
+	printf("%d\n",marks[3]);
+	printf("%d\n",marks[4]);
+	printf("%d\n",marks[5]);
+	// using  loop
+	int i,sum=0;
+	for(i=0;i<6;i++)
+	{
+		printf("%d ",marks[i]);
+		sum=sum+marks[i];
 	}
-	swap=array[d];
-	array[d]=array[d+1];
-	array[d+1]=swap;
-	}
-}
-}
-printf("sorted in ascending order\n");
-for(c=0;c<n;c++)
-printf("%d\n",array[c]);
-
-return 0;
+	printf("\ntotal marks=%d",sum);
+	return 0;
 }
